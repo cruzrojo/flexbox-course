@@ -2,41 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Funky Chicken</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Shite</title>
 
-<style>
-    body {
-        background-color: lightgoldenrodyellow;
-    }
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-    .error_wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
-        font-family: 'Merriweather', serif;
-    }
+        .container {
+            margin: 0;
+            height: calc(100vh - 20px);
+            width: calc(100vw - 20px);
+            border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .error_wrapper > .error-heading {
-        margin-bottom: 42px;
-    }
+        .container > .img_blocks {
+            display: flex;
+            flex-direction: column;
+        }
 
-    img {
-        width: 50%;
-    }
-
-</style>
+    </style>
 
 </head>
 <body>
-    <div class="error_wrapper">
-        <div class="error_heading">
-            <h2>Yikes...who knows when that page will be available, would you lke to try another?</h2>
+    
+    <div class="container">
+        <div class="img_blocks">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
+            <img src="https://source.unsplash.com/random/150x150" alt="Image">
         </div>
-
-        <img src="images/tbot.png" alt="">
     </div>
+
 </body>
 </html>
