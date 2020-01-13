@@ -1,23 +1,29 @@
 .navbar-wrapper {
     display: flex;
-    background-color: rgb(73, 75, 102);
+    background-color: rgb(102, 82, 73);
     align-items: center;
     height: 83px;
 }
 
 .logo-wrapper > .logo img {
     height: 80px;
+    margin-right: 2em;
 }
 
 .link1-wrapper {
-    margin: 20px;
     padding: 10px;
     font-size: 30px;
-    background-color: #2a2d3a;
+    background-color: #3a2a2a;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    box-shadow: 0 5px 0 darkred;
+    height: 60px;
+}
+
+.link1-wrapper:hover {
+    box-shadow: 0 5px 0 rgb(150, 111, 111);
 }
 
 .link1-wrapper > .link1 a {
@@ -26,14 +32,18 @@
 }    
 
 .link2-wrapper {
-    margin: 20px;
     padding: 10px;
     font-size: 30px;
-    background-color: #2a2d3a;
+    background-color: #3a2a2a;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    box-shadow: 0 5px 0 darkred;
+    height: 60px;
+}
+.link2-wrapper:hover {
+    box-shadow: 0 5px 0 rgb(150, 111, 111);
 }
 
 .link2-wrapper > .link2 a {
@@ -42,14 +52,20 @@
 }
 
 .link3-wrapper {
-    margin: 20px;
+    margin-left: 1200px;
     padding: 10px;
     font-size: 30px;
-    background-color: #2a2d3a;
+    background-color: #3a2a2a;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    box-shadow: 0 5px 0 darkred;
+    height: 60px;
+}
+
+.link3-wrapper:hover {
+    box-shadow: 0 5px 0 rgb(150, 111, 111);
 }
 
 .link3-wrapper > .link3 a {
